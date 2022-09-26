@@ -1,12 +1,5 @@
 def partition(l, r, nums):
-    pivot, ptr = nums[r], l
-    for i in range(l, r):
-        if nums[i] <= pivot:
-            # Swapping values smaller than the pivot to the front
-            nums[i], nums[ptr] = nums[ptr], nums[i]
-            ptr += 1
-    nums[ptr], nums[r] = nums[r], nums[ptr]
-    return ptr
+	pass
  
 
 def quicksort(l, r, nums):
